@@ -1,0 +1,148 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+hr {
+  width: 5%;
+  border: 6px dotted;
+  color: #EAF6F6;
+  border-style: dotted none none none;
+  margin: 40px auto 40px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto auto 0;
+  font-family: 'Oleo Script', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Courgette', cursive;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: cursive;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.profile-img {
+  border-radius: 59px;
+  width: 20%;
+  height: 20%;
+}
+
+.computer-list {
+  line-height: 2;
+}
+
+.speech {
+  width: 30%;
+  margin: auto;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+}
+
+.football-img {
+  width: 20%;
+  height: 20%;
+  float: right;
+  margin-right: 120px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  height: 100px;
+  padding-top: 30px;
+
+}
+
+.contact-me {
+  margin-bottom: 30px;
+}
+
+.tag {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+.link {
+  margin: 30px;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #750dba);
+  background-image: -moz-linear-gradient(top, #3498db, #750dba);
+  background-image: -ms-linear-gradient(top, #3498db, #750dba);
+  background-image: -o-linear-gradient(top, #3498db, #750dba);
+  background-image: linear-gradient(to bottom, #3498db, #750dba);
+  -webkit-border-radius: 59;
+  -moz-border-radius: 59;
+  border-radius: 59px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
